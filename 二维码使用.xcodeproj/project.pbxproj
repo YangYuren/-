@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF84C18B1EE8F82A00739512 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF84C1891EE8F82A00739512 /* Main.storyboard */; };
+		EF84C18D1EE8F82A00739512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF84C18C1EE8F82A00739512 /* Assets.xcassets */; };
+		EF84C1901EE8F82A00739512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF84C18E1EE8F82A00739512 /* LaunchScreen.storyboard */; };
+		EF84C19B1EE8F82B00739512 /* _____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84C19A1EE8F82B00739512 /* _____Tests.swift */; };
+		EF84C1A61EE8F82B00739512 /* _____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84C1A51EE8F82B00739512 /* _____UITests.swift */; };
+		EF84C1C41EE8FBDA00739512 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84C1BE1EE8FBDA00739512 /* AppDelegate.swift */; };
+		EF84C1C51EE8FBDA00739512 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF84C1BF1EE8FBDA00739512 /* Info.plist */; };
+		EF84C1C71EE8FC3800739512 /* Dect0rController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84C1C61EE8FC3800739512 /* Dect0rController.swift */; };
+		EF84C1C91EE8FC4E00739512 /* GeneratorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84C1C81EE8FC4E00739512 /* GeneratorController.swift */; };
+		EF84C1CB1EE8FC5900739512 /* ScanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84C1CA1EE8FC5900739512 /* ScanController.swift */; };
+		EF84C1CD1EE8FD6F00739512 /* GeneratorController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF84C1CC1EE8FD6F00739512 /* GeneratorController.storyboard */; };
+		EF84C1CF1EE8FD8500739512 /* Dect0rController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF84C1CE1EE8FD8500739512 /* Dect0rController.storyboard */; };
+		EF84C1D11EE8FDA100739512 /* ScanController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF84C1D01EE8FDA100739512 /* ScanController.storyboard */; };
+		EF84C1D41EE91CA800739512 /* UIImage-Extnsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84C1D31EE91CA800739512 /* UIImage-Extnsion.swift */; };
+		EF84C1D61EE9264200739512 /* 123.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF84C1D51EE9264200739512 /* 123.jpg */; };
+		EF84C1D81EE92A0000739512 /* 234.png in Resources */ = {isa = PBXBuildFile; fileRef = EF84C1D71EE92A0000739512 /* 234.png */; };
+		EFBDD2B01EE94E3900EBB459 /* QRCodeTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBDD2AF1EE94E3900EBB459 /* QRCodeTool.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF84C1971EE8F82B00739512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF84C17A1EE8F82A00739512 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF84C1811EE8F82A00739512;
+			remoteInfo = "二维码使用";
+		};
+		EF84C1A21EE8F82B00739512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF84C17A1EE8F82A00739512 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF84C1811EE8F82A00739512;
+			remoteInfo = "二维码使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF84C1821EE8F82A00739512 /* 二维码使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "二维码使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF84C18A1EE8F82A00739512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF84C18C1EE8F82A00739512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF84C18F1EE8F82A00739512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF84C1961EE8F82B00739512 /* 二维码使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "二维码使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF84C19A1EE8F82B00739512 /* _____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____Tests.swift"; sourceTree = "<group>"; };
+		EF84C19C1EE8F82B00739512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF84C1A11EE8F82B00739512 /* 二维码使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "二维码使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF84C1A51EE8F82B00739512 /* _____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____UITests.swift"; sourceTree = "<group>"; };
+		EF84C1A71EE8F82B00739512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF84C1BE1EE8FBDA00739512 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF84C1BF1EE8FBDA00739512 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF84C1C61EE8FC3800739512 /* Dect0rController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dect0rController.swift; sourceTree = "<group>"; };
+		EF84C1C81EE8FC4E00739512 /* GeneratorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratorController.swift; sourceTree = "<group>"; };
+		EF84C1CA1EE8FC5900739512 /* ScanController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanController.swift; sourceTree = "<group>"; };
+		EF84C1CC1EE8FD6F00739512 /* GeneratorController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = GeneratorController.storyboard; path = ../Controller/GeneratorController.storyboard; sourceTree = "<group>"; };
+		EF84C1CE1EE8FD8500739512 /* Dect0rController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Dect0rController.storyboard; path = ../Controller/Dect0rController.storyboard; sourceTree = "<group>"; };
+		EF84C1D01EE8FDA100739512 /* ScanController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ScanController.storyboard; path = ../Controller/ScanController.storyboard; sourceTree = "<group>"; };
+		EF84C1D31EE91CA800739512 /* UIImage-Extnsion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage-Extnsion.swift"; sourceTree = "<group>"; };
+		EF84C1D51EE9264200739512 /* 123.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 123.jpg; sourceTree = "<group>"; };
+		EF84C1D71EE92A0000739512 /* 234.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 234.png; sourceTree = "<group>"; };
+		EFBDD2AF1EE94E3900EBB459 /* QRCodeTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeTool.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF84C17F1EE8F82A00739512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF84C1931EE8F82B00739512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF84C19E1EE8F82B00739512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF84C1791EE8F82A00739512 = {
+			isa = PBXGroup;
+			children = (
+				EF84C1841EE8F82A00739512 /* 二维码使用 */,
+				EF84C1991EE8F82B00739512 /* 二维码使用Tests */,
+				EF84C1A41EE8F82B00739512 /* 二维码使用UITests */,
+				EF84C1831EE8F82A00739512 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF84C1831EE8F82A00739512 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF84C1821EE8F82A00739512 /* 二维码使用.app */,
+				EF84C1961EE8F82B00739512 /* 二维码使用Tests.xctest */,
+				EF84C1A11EE8F82B00739512 /* 二维码使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF84C1841EE8F82A00739512 /* 二维码使用 */ = {
+			isa = PBXGroup;
+			children = (
+				EF84C1B31EE8FBDA00739512 /* Classes */,
+				EF84C1891EE8F82A00739512 /* Main.storyboard */,
+				EF84C18C1EE8F82A00739512 /* Assets.xcassets */,
+				EF84C1D71EE92A0000739512 /* 234.png */,
+				EF84C1D51EE9264200739512 /* 123.jpg */,
+				EF84C18E1EE8F82A00739512 /* LaunchScreen.storyboard */,
+			);
+			path = "二维码使用";
+			sourceTree = "<group>";
+		};
+		EF84C1991EE8F82B00739512 /* 二维码使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EF84C19A1EE8F82B00739512 /* _____Tests.swift */,
+				EF84C19C1EE8F82B00739512 /* Info.plist */,
+			);
+			path = "二维码使用Tests";
+			sourceTree = "<group>";
+		};
+		EF84C1A41EE8F82B00739512 /* 二维码使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF84C1A51EE8F82B00739512 /* _____UITests.swift */,
+				EF84C1A71EE8F82B00739512 /* Info.plist */,
+			);
+			path = "二维码使用UITests";
+			sourceTree = "<group>";
+		};
+		EF84C1B31EE8FBDA00739512 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EF84C1D21EE91C9600739512 /* Tools */,
+				EF84C1BC1EE8FBDA00739512 /* Others */,
+				EF84C1B41EE8FBDA00739512 /* DectorQRCode */,
+				EF84C1B81EE8FBDA00739512 /* GeneratorQRCode */,
+				EF84C1C01EE8FBDA00739512 /* ScanQRCode */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EF84C1B41EE8FBDA00739512 /* DectorQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				EF84C1B51EE8FBDA00739512 /* Controller */,
+				EF84C1B61EE8FBDA00739512 /* Model */,
+				EF84C1B71EE8FBDA00739512 /* View */,
+			);
+			path = DectorQRCode;
+			sourceTree = "<group>";
+		};
+		EF84C1B51EE8FBDA00739512 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EF84C1C61EE8FC3800739512 /* Dect0rController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EF84C1B61EE8FBDA00739512 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF84C1B71EE8FBDA00739512 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF84C1CE1EE8FD8500739512 /* Dect0rController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF84C1B81EE8FBDA00739512 /* GeneratorQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				EF84C1B91EE8FBDA00739512 /* Controller */,
+				EF84C1BA1EE8FBDA00739512 /* Model */,
+				EF84C1BB1EE8FBDA00739512 /* View */,
+			);
+			path = GeneratorQRCode;
+			sourceTree = "<group>";
+		};
+		EF84C1B91EE8FBDA00739512 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EF84C1C81EE8FC4E00739512 /* GeneratorController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EF84C1BA1EE8FBDA00739512 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF84C1BB1EE8FBDA00739512 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF84C1CC1EE8FD6F00739512 /* GeneratorController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF84C1BC1EE8FBDA00739512 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				EF84C1BD1EE8FBDA00739512 /* System */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		EF84C1BD1EE8FBDA00739512 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				EF84C1BE1EE8FBDA00739512 /* AppDelegate.swift */,
+				EF84C1BF1EE8FBDA00739512 /* Info.plist */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		EF84C1C01EE8FBDA00739512 /* ScanQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				EF84C1C11EE8FBDA00739512 /* Controller */,
+				EF84C1C21EE8FBDA00739512 /* Model */,
+				EF84C1C31EE8FBDA00739512 /* View */,
+			);
+			path = ScanQRCode;
+			sourceTree = "<group>";
+		};
+		EF84C1C11EE8FBDA00739512 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EF84C1CA1EE8FC5900739512 /* ScanController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EF84C1C21EE8FBDA00739512 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF84C1C31EE8FBDA00739512 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF84C1D01EE8FDA100739512 /* ScanController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF84C1D21EE91C9600739512 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				EF84C1D31EE91CA800739512 /* UIImage-Extnsion.swift */,
+				EFBDD2AF1EE94E3900EBB459 /* QRCodeTool.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF84C1811EE8F82A00739512 /* 二维码使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF84C1AA1EE8F82B00739512 /* Build configuration list for PBXNativeTarget "二维码使用" */;
+			buildPhases = (
+				EF84C17E1EE8F82A00739512 /* Sources */,
+				EF84C17F1EE8F82A00739512 /* Frameworks */,
+				EF84C1801EE8F82A00739512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "二维码使用";
+			productName = "二维码使用";
+			productReference = EF84C1821EE8F82A00739512 /* 二维码使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF84C1951EE8F82B00739512 /* 二维码使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF84C1AD1EE8F82B00739512 /* Build configuration list for PBXNativeTarget "二维码使用Tests" */;
+			buildPhases = (
+				EF84C1921EE8F82B00739512 /* Sources */,
+				EF84C1931EE8F82B00739512 /* Frameworks */,
+				EF84C1941EE8F82B00739512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF84C1981EE8F82B00739512 /* PBXTargetDependency */,
+			);
+			name = "二维码使用Tests";
+			productName = "二维码使用Tests";
+			productReference = EF84C1961EE8F82B00739512 /* 二维码使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF84C1A01EE8F82B00739512 /* 二维码使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF84C1B01EE8F82B00739512 /* Build configuration list for PBXNativeTarget "二维码使用UITests" */;
+			buildPhases = (
+				EF84C19D1EE8F82B00739512 /* Sources */,
+				EF84C19E1EE8F82B00739512 /* Frameworks */,
+				EF84C19F1EE8F82B00739512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF84C1A31EE8F82B00739512 /* PBXTargetDependency */,
+			);
+			name = "二维码使用UITests";
+			productName = "二维码使用UITests";
+			productReference = EF84C1A11EE8F82B00739512 /* 二维码使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF84C17A1EE8F82A00739512 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Yang;
+				TargetAttributes = {
+					EF84C1811EE8F82A00739512 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = NR9VF8XTUD;
+						ProvisioningStyle = Automatic;
+					};
+					EF84C1951EE8F82B00739512 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF84C1811EE8F82A00739512;
+					};
+					EF84C1A01EE8F82B00739512 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF84C1811EE8F82A00739512;
+					};
+				};
+			};
+			buildConfigurationList = EF84C17D1EE8F82A00739512 /* Build configuration list for PBXProject "二维码使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF84C1791EE8F82A00739512;
+			productRefGroup = EF84C1831EE8F82A00739512 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF84C1811EE8F82A00739512 /* 二维码使用 */,
+				EF84C1951EE8F82B00739512 /* 二维码使用Tests */,
+				EF84C1A01EE8F82B00739512 /* 二维码使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF84C1801EE8F82A00739512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF84C1D61EE9264200739512 /* 123.jpg in Resources */,
+				EF84C1CF1EE8FD8500739512 /* Dect0rController.storyboard in Resources */,
+				EF84C1C51EE8FBDA00739512 /* Info.plist in Resources */,
+				EF84C1901EE8F82A00739512 /* LaunchScreen.storyboard in Resources */,
+				EF84C18D1EE8F82A00739512 /* Assets.xcassets in Resources */,
+				EF84C1D81EE92A0000739512 /* 234.png in Resources */,
+				EF84C1CD1EE8FD6F00739512 /* GeneratorController.storyboard in Resources */,
+				EF84C18B1EE8F82A00739512 /* Main.storyboard in Resources */,
+				EF84C1D11EE8FDA100739512 /* ScanController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF84C1941EE8F82B00739512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF84C19F1EE8F82B00739512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF84C17E1EE8F82A00739512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF84C1CB1EE8FC5900739512 /* ScanController.swift in Sources */,
+				EF84C1C41EE8FBDA00739512 /* AppDelegate.swift in Sources */,
+				EF84C1C71EE8FC3800739512 /* Dect0rController.swift in Sources */,
+				EF84C1C91EE8FC4E00739512 /* GeneratorController.swift in Sources */,
+				EF84C1D41EE91CA800739512 /* UIImage-Extnsion.swift in Sources */,
+				EFBDD2B01EE94E3900EBB459 /* QRCodeTool.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF84C1921EE8F82B00739512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF84C19B1EE8F82B00739512 /* _____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF84C19D1EE8F82B00739512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF84C1A61EE8F82B00739512 /* _____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF84C1981EE8F82B00739512 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF84C1811EE8F82A00739512 /* 二维码使用 */;
+			targetProxy = EF84C1971EE8F82B00739512 /* PBXContainerItemProxy */;
+		};
+		EF84C1A31EE8F82B00739512 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF84C1811EE8F82A00739512 /* 二维码使用 */;
+			targetProxy = EF84C1A21EE8F82B00739512 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF84C1891EE8F82A00739512 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF84C18A1EE8F82A00739512 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF84C18E1EE8F82A00739512 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF84C18F1EE8F82A00739512 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF84C1A81EE8F82B00739512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF84C1A91EE8F82B00739512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF84C1AB1EE8F82B00739512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NR9VF8XTUD;
+				INFOPLIST_FILE = "$(SRCROOT)/二维码使用/Classes/Others/System/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aeyanr.weq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF84C1AC1EE8F82B00739512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NR9VF8XTUD;
+				INFOPLIST_FILE = "$(SRCROOT)/二维码使用/Classes/Others/System/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aeyanr.weq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EF84C1AE1EE8F82B00739512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "二维码使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aeyanr.com.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/二维码使用.app/二维码使用";
+			};
+			name = Debug;
+		};
+		EF84C1AF1EE8F82B00739512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "二维码使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aeyanr.com.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/二维码使用.app/二维码使用";
+			};
+			name = Release;
+		};
+		EF84C1B11EE8F82B00739512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "二维码使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aeyanr.com.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "二维码使用";
+			};
+			name = Debug;
+		};
+		EF84C1B21EE8F82B00739512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "二维码使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aeyanr.com.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "二维码使用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF84C17D1EE8F82A00739512 /* Build configuration list for PBXProject "二维码使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF84C1A81EE8F82B00739512 /* Debug */,
+				EF84C1A91EE8F82B00739512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF84C1AA1EE8F82B00739512 /* Build configuration list for PBXNativeTarget "二维码使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF84C1AB1EE8F82B00739512 /* Debug */,
+				EF84C1AC1EE8F82B00739512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF84C1AD1EE8F82B00739512 /* Build configuration list for PBXNativeTarget "二维码使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF84C1AE1EE8F82B00739512 /* Debug */,
+				EF84C1AF1EE8F82B00739512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF84C1B01EE8F82B00739512 /* Build configuration list for PBXNativeTarget "二维码使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF84C1B11EE8F82B00739512 /* Debug */,
+				EF84C1B21EE8F82B00739512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF84C17A1EE8F82A00739512 /* Project object */;
+}
